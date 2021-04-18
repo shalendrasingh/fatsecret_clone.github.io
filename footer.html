@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .border {
+        border: 1px solid red;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* height: 400px; */
+        background-color: #ffffff;
+      }
+      .top_footer_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .top_footer_section > p {
+        margin-top: 50px;
+        font-size: 14px;
+      }
+      .top_footer_section > div > img {
+        margin: 10px;
+      }
+      .bottom_footer_section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+        background-color: #32b14c;
+      }
+
+      .mid_footer_section {
+        display: flex;
+        flex-direction: column;
+        background-color: #333333;
+        width: 100%;
+        height: 180px;
+      }
+      .bottom__menus {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .bottom__menus > a {
+        margin: 10px 10px;
+        color: white;
+      }
+      .img__div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+      }
+      .img__div > img {
+        margin: 10px;
+      }
+      .footer__links__div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: rgb(185, 185, 185);
+        font-size: 12px;
+      }
+      .footer__links__div > a {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="footer">
+      <div class="top_footer_section">
+        <p>Get the app</p>
+        <div>
+          <img
+            src="https://static.fatsecret.com/static/images/mobi/android/en_get_2.svg"
+            alt="google play img"
+          />
+          <img
+            src="https://static.fatsecret.com/static/images/mobi/ios/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            alt="play store img"
+          />
+        </div>
+      </div>
+      <div class="mid_footer_section">
+        <div class="img__div">
+          <img
+            src="https://static.fatsecret.com/static/images/social/but_social_facebook.svg"
+            alt="fb svg img"
+          />
+          <img
+            src="https://static.fatsecret.com/static/images/social/but_social_instagram.svg"
+            alt="insta svg img"
+          />
+          <img
+            src="https://static.fatsecret.com/static/images/social/but_social_twitter.svg"
+            alt="img svg "
+          />
+        </div>
+        <div class="bottom__menus">
+          <a>FOOD LIST</a>
+          <a>BRAND LIST</a>
+          <a>PLATFORM</a>
+          <a>PROFESSIONAL</a>
+          <a>CONTACT</a>
+        </div>
+        <div class="footer__links__div">
+          <a>FIND PEOPLE</a> | <a>FAQ</a> | <a>BLOG</a> | <a>TERMS</a> |
+          <a>PRIVACY</a> |<a> REPORT ABUSE</a>
+        </div>
+      </div>
+      <div class="bottom_footer_section">
+        <p>&copy; 2020 FatSecret. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>

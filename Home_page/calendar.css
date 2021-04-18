@@ -1,0 +1,66 @@
+.home__main__container__middle {
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 253px;
+  height: auto;
+  z-index: 2;
+  background-color: white;
+  top: 101%;
+  right: -111%;
+}
+
+.home__calender__charts {
+  width: 30%;
+  border: 2px solid red;
+  margin: 1vh;
+}
+
+.home__calender__charts {
+  width: 30%;
+  border: 2px solid red;
+  margin: 1vh;
+}
+
+.weekdays {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.days > div,
+.weekdays > div {
+  font-size: 15px;
+  border: 1px solid #e6eaed;
+  text-align: center;
+  width: 13.5%;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  background-color: white;
+  text-decoration: underline;
+}
+.days > .next__date,
+.days > .prev__date {
+  background-color: #8080806b;
+  text-decoration: none;
+  color: black;
+}
+
+.weekdays > div {
+  text-decoration: none;
+  color: black;
+}
+
+.days > .today {
+  background: url(https://static.fatsecret.com/static/images/def20/widget/Date_Selected_Today.png)
+    no-repeat 0% 0%;
+}

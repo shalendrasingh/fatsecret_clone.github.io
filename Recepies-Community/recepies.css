@@ -1,0 +1,1223 @@
+.recepies__mover,
+.keto__mover {
+  width: 2vw;
+  height: 2vw;
+  margin-left: 16%;
+  display: flex;
+  position: relative;
+}
+
+.home__img,
+.keto__home {
+  position: absolute;
+  top: 110%;
+  left: 75%;
+  color: #edf1e9;
+}
+.arrow__mover,
+.keto__arrow__1 {
+  position: absolute;
+  left: 140%;
+  top: 110%;
+  color: #edf1e9;
+}
+
+.mover__main,
+.keto__move__recepies {
+  position: absolute;
+  left: 190%;
+  top: 110%;
+}
+
+.mover__main a,
+.keto__move__recepies a {
+  text-decoration: none;
+  color: lightslategrey;
+}
+
+.main__layout {
+  width: 70%;
+  height: 100vw;
+  margin-left: 15%;
+  margin-top: 1%;
+  border: 1px solid white;
+}
+
+.recepies__head {
+  width: 55%;
+  margin-left: 20%;
+  height: 7vw;
+  border: 5px solid #67b54b;
+  position: relative;
+  margin-top: 2%;
+}
+
+.recepies__head img {
+  box-shadow: 0px 0px 2px #ecf1e8;
+  background-color: #ecf1e8;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-radius: 30%;
+}
+
+.recepies__head__text {
+  text-align: left;
+  position: absolute;
+  left: 22%;
+  top: 15%;
+  color: #5e5e53;
+}
+
+.recepies__content {
+  width: 60%;
+  height: 20vw;
+  margin-left: 20%;
+  margin-top: 3%;
+  border: 1px solid white;
+}
+
+.food__details {
+  position: relative;
+  border: 1px solid white;
+  width: 18vw;
+  height: 4vw;
+}
+.food__details a {
+  text-decoration: none;
+  color: #46a3e0;
+  font-size: 25px;
+  position: absolute;
+  top: 1%;
+  font-weight: bolder;
+}
+a:hover {
+  text-decoration: underline;
+  color: #46a3e0;
+}
+.food__details p {
+  position: absolute;
+  top: 45%;
+}
+
+.food__details img {
+  position: absolute;
+  top: 74%;
+}
+
+.all__foods {
+  width: 80%;
+  border: 1px solid white;
+  margin-left: 15%;
+}
+
+.all__foods__img {
+  width: 5%;
+  /* border: 1px solid black; */
+}
+
+.food__details1 {
+  position: relative;
+  border: 1px solid white;
+  width: 50vw;
+  height: 4vw;
+}
+
+.food__details1 a {
+  text-decoration: none;
+  color: #46a3e0;
+  font-size: 15px;
+  position: absolute;
+  top: 10%;
+  font-weight: bolder;
+}
+
+.food__details1 p {
+  position: absolute;
+  top: 45%;
+}
+
+.food__details1 img {
+  position: absolute;
+  top: 74%;
+}
+
+.left__data {
+  position: absolute;
+  color: #bbb;
+  float: right;
+  font-size: 12px;
+  left: 50%;
+  bottom: 10%;
+}
+
+.recepiecs__view__more__imp {
+  width: 10%;
+  margin-left: 80%;
+  margin-top: 1%;
+}
+/* Keto Bread CSS Start*/
+
+.keto__arrow__2 {
+  position: absolute;
+  left: 360%;
+  top: 116%;
+  color: #edf1e9;
+}
+
+.keto__move__keto {
+  position: absolute;
+  left: 400%;
+  top: 116%;
+  color: #edf1e9;
+}
+
+.keto__move__keto a {
+  text-decoration: none;
+  color: lightslategrey;
+}
+
+.keto__main {
+  width: 70%;
+  /* border: 1px solid black; */
+  margin-left: 20%;
+  height: 30vw;
+  margin-top: 1.5%;
+  display: flex;
+}
+
+.keto__content__left {
+  border: 5px solid orange;
+  width: 55%;
+  margin-left: 1%;
+  display: flex;
+  border-radius: 2px;
+}
+
+.keto__content__right {
+  width: 35%;
+  /* border: 1px solid red; */
+  margin-left: 1%;
+}
+
+.keto__left__inner {
+  width: 25%;
+  margin-left: 2%;
+  /* border: 1px solid blueviolet; */
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.keto__left__img img {
+  border: 5px solid #ebf9fc;
+}
+
+.view__pic {
+  text-align: right;
+  margin-right: 20%;
+  margin-top: 0%;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #46a3e0;
+  font-size: 15px;
+}
+
+.yeilds {
+  width: 90%;
+  background-color: #ebf9fc;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.yeilds :nth-child(1) {
+  font-weight: bolder;
+}
+
+.time {
+  width: 80%;
+  background-color: #ebf9fc;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+.meal {
+  width: 80%;
+  background-color: #ebf9fc;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 6%;
+  line-height: 19px;
+}
+.meal :nth-child(1) {
+  font-weight: bolder;
+}
+
+.rating {
+  width: 80%;
+  background-color: #ebf9fc;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 6%;
+  line-height: 20px;
+  height: 80px;
+}
+
+.rating :nth-child(1) {
+  font-weight: bolder;
+}
+
+.oops {
+  color: #b8b9b6;
+}
+
+.keto__right_inner {
+  width: 70%;
+  /* border: 1px solid orange; */
+  margin-left: 1%;
+  margin-top: 2%;
+}
+
+.right__head p {
+  text-align: right;
+}
+.k__food {
+  line-height: 25px;
+}
+
+.k__detail {
+  line-height: 25px;
+}
+
+.k__directions {
+  margin-left: 5%;
+  line-height: 25px;
+}
+.k__excla {
+  background-color: #ebf9fc;
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 88%;
+  padding: 0.5%;
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.k__comments {
+  width: 40%;
+  height: 11vw;
+  /* border: 1px solid green; */
+  margin-left: 20%;
+  margin-top: 1%;
+  background-color: #fcf3e5;
+  position: relative;
+}
+
+.review__recepie {
+  width: 80%;
+  margin-left: 10%;
+  height: 3vw;
+  border: 1px solid #fcf3e5;
+  margin-top: 0.5%;
+}
+.review__recepie h3 {
+  margin-top: 1%;
+}
+.review__recepie button {
+  position: absolute;
+  background-color: #67b44b;
+  border: none;
+  -webkit-transform: none;
+  padding: 1%;
+  border-radius: 2px;
+  color: #fcf3e5;
+  left: 80%;
+  top: 5%;
+}
+
+.review__btn:hover {
+  background-color: green;
+}
+
+.review__input {
+  width: 80%;
+  height: 6vw;
+  margin-top: 2%;
+  margin-left: 10%;
+  display: flex;
+}
+
+.review__radio__input {
+  width: 30%;
+}
+
+.review__textarea {
+  width: 80%;
+}
+
+.right__inner__head {
+  width: 80%;
+  /* border: 1px solid turquoise; */
+  margin-top: 2%;
+  background-color: #edf1e9;
+  height: 20vw;
+  line-height: 30px;
+}
+
+.right__inner__head p {
+  color: #383333;
+}
+
+.ke__filter h6 {
+  color: #5393c4;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.ke__filter p {
+  color: #383333;
+}
+
+.ke__new__recepies h6 {
+  color: #5393c4;
+  font-size: 14px;
+  line-height: 0px;
+}
+
+.ke__new__recepies p {
+  line-height: 15px;
+  font-size: 15px;
+  margin-left: 2%;
+}
+
+.new_href {
+  margin-left: 60%;
+}
+
+.submit__recepie {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.nutrition__summary {
+  background-color: #fcf3e5;
+  width: 65%;
+  height: 5vw;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.nutrition__summary h3 {
+  margin-left: 5%;
+  padding: 2%;
+}
+
+.nutrition__summary li {
+  font-size: 12px;
+  list-style-type: square;
+  margin-left: 10%;
+  line-height: 20px;
+}
+
+.last__chat {
+  width: 80%;
+  height: 50vw;
+  margin-left: 10%;
+  background-color: #edf1e9;
+  margin-top: 3%;
+  position: relative;
+}
+.nutrition__fact {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border: 2px solid grey;
+  width: 90%;
+  height: 30vw;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.nutrition__fact h2 {
+  margin-left: 5%;
+}
+.nutrition__fact h3 {
+  font-size: 15px;
+}
+.float-left {
+  float: left;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.left-text {
+  text-align: right;
+  margin-right: 4%;
+  line-height: 30px;
+}
+.position {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+}
+.position1 {
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+
+.text-size {
+  font-size: 13px;
+  line-height: 31px;
+}
+
+.position3 {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+.margin-text {
+  margin-left: 3%;
+}
+
+.position4 {
+  position: absolute;
+  top: 34%;
+  left: 7%;
+}
+
+.position5 {
+  position: absolute;
+  top: 39%;
+  left: 7%;
+}
+
+.position6 {
+  position: absolute;
+  top: 44.5%;
+  left: 7%;
+}
+
+.position7 {
+  position: absolute;
+  top: 56%;
+  left: 5%;
+}
+
+.position8 {
+  position: absolute;
+  top: 59.5%;
+  left: 9%;
+}
+
+.position9 {
+  position: absolute;
+  top: 66%;
+  left: 5%;
+}
+
+.position10 {
+  position: absolute;
+  top: 72%;
+  left: 5%;
+}
+
+.position11 {
+  position: absolute;
+  top: 78%;
+  left: 5%;
+}
+
+.position12 {
+  position: absolute;
+  top: 84%;
+  left: 5%;
+}
+
+.position13 {
+  position: absolute;
+  top: 89.3%;
+  left: 5%;
+}
+
+.rdi {
+  width: 60%;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #acc9e8;
+  height: 4vw;
+  top: 65%;
+  background-color: white;
+  left: 18%;
+}
+
+.rdi__main {
+  display: flex;
+}
+.rdi__text {
+  display: flex;
+  width: 60%;
+  margin-left: 10%;
+  border: 1px solid white;
+  margin-top: 5%;
+}
+
+.rdi__img {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.calorie__breakdown {
+  position: absolute;
+  width: 80%;
+  background-color: white;
+  height: 7vw;
+  top: 75%;
+  border: 1px solid #acc9e8;
+  left: 10%;
+}
+
+.calorie__breakdown__main {
+  display: flex;
+}
+
+.calorie__breakdown__text {
+  width: 50%;
+}
+.calorie__breakdown__text h5 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.calorie__breakdown__text ul {
+  list-style: none;
+}
+
+.calorie__breakdown__text li {
+  margin-top: 1%;
+}
+
+.calorie__breakdown__text p {
+  margin-left: 15%;
+  margin-top: 3%;
+}
+.square {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-left: 5%;
+}
+
+.chart__list {
+  margin-top: 15%;
+}
+
+.text-size1 {
+  font-size: 12px;
+}
+.color1 {
+  background-color: #4bb89a;
+}
+
+.color2 {
+  background-color: #e4b101;
+}
+
+.color3 {
+  background-color: #bc5f54;
+}
+
+.flow__pie__chart {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 58%;
+  top: 15%;
+  background-image: conic-gradient(#4bb89a 60deg, #e4b101 0 300deg, #bc5f54 0);
+}
+
+.flow__pie__chart1 {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 58%;
+  top: 15%;
+  background-image: conic-gradient(#4bb89a 40deg, #e4b101 0 220deg, #bc5f54 0);
+}
+
+.flow__pie__chart2 {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 58%;
+  top: 15%;
+  background-image: conic-gradient(#4bb89a 40deg, #e4b101 0 300deg, #bc5f54 0);
+}
+
+.last__based__on h5 {
+  margin-top: 15%;
+}
+.last__based__on p {
+  line-height: 20px;
+}
+
+/* Keto Bread CSS End*/
+
+/* View Photos CSS Start*/
+
+.keto__arrow__3 {
+  position: absolute;
+  left: 620%;
+  top: 118%;
+  color: #edf1e9;
+}
+
+.keto__move__keto__photo {
+  position: absolute;
+  left: 660%;
+  top: 118%;
+  color: #edf1e9;
+}
+
+.view__pic__main {
+  width: 40%;
+  height: 8vw;
+  border: 3px solid #67b44b;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+.view__pic__content {
+  width: 70%;
+  height: 3vw;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+.view__pic__content__small {
+  width: 70%;
+  height: 3vw;
+  margin-left: 10%;
+}
+
+.view__pic__content__small p {
+  color: #555;
+  font-size: 12px;
+}
+
+.view__pic__outside {
+  text-align: right;
+  margin-top: 5%;
+  color: #555;
+  font-size: 14px;
+}
+
+.view__pic__pic {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+.upload__pic {
+  width: 90%;
+  height: 10vw;
+  border: 1px solid black;
+  background-color: #fcf3e5;
+  position: relative;
+}
+.uplaod__img img {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+.uplaod__img h2 {
+  position: absolute;
+  left: 7%;
+  top: 1%;
+}
+
+.upload__small__content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 14px;
+  color: #555;
+}
+
+.choose__file {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 90%;
+}
+
+.submit {
+  background-color: #67b44b;
+  border: none;
+  -webkit-transform: none;
+  padding: 1%;
+  color: white;
+}
+
+.cancel {
+  background-color: #f2f2f2;
+  border: none;
+  -webkit-transform: none;
+  padding: 1%;
+  color: #48a1d5;
+  margin-left: 5%;
+}
+
+/* View Photos CSS End*/
+
+/* Community Main Page CSS Start*/
+
+.main__main {
+  width: 50%;
+  border: 3px solid #67b54b;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+.head__head {
+  width: 30%;
+  height: 2vw;
+  margin-left: 2%;
+}
+
+.head__head h2 {
+  color: #c39b69;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.main__page__community {
+  width: 100%;
+  height: 15vw;
+  display: flex;
+  position: relative;
+}
+
+.main__page__community__div__1 {
+  width: 30%;
+  margin-left: 1%;
+}
+
+.main__page__community__div__2 {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.main__page__community__div__3 {
+  width: 30%;
+  margin-left: 3%;
+}
+
+.main__page__community__flex {
+  width: 100%;
+  display: flex;
+  height: 13vw;
+  background-color: #f3f6f1;
+}
+
+.main__page__community__head__1 {
+  width: 50%;
+  height: 2vw;
+  display: flex;
+}
+
+.main__page__community__head__1 h3 {
+  color: #398ec9;
+  font-size: 22px;
+  font-family: Helvetica, Arial;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.main__page__community__head__1 img {
+  margin-top: 43%;
+  margin-left: 15%;
+}
+
+.main__page__community__img__1 {
+  width: 52%;
+  height: 5vw;
+  margin-top: 25%;
+  position: relative;
+  box-shadow: 2px 2px 2px grey;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+
+.main__page__community__img__2 {
+  width: 52%;
+  height: 5vw;
+  margin-top: 25%;
+  position: relative;
+  box-shadow: 2px 2px 2px grey;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+
+.main__page__community__img__3 {
+  width: 52%;
+  height: 5vw;
+  margin-top: 25%;
+  position: relative;
+  box-shadow: 2px 2px 2px grey;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+
+.main__page__community__img__1 img {
+  transform: rotate(-95deg);
+  margin-left: 2%;
+  position: absolute;
+  z-index: 2;
+  bottom: 5%;
+  left: 5%;
+}
+
+.main__page__community__img__2 img {
+  margin-left: 2%;
+  position: absolute;
+  z-index: 2;
+  bottom: 5%;
+  left: 10%;
+}
+
+.main__page__community__img__3 img {
+  margin-left: 2%;
+  position: absolute;
+  z-index: 2;
+  bottom: 5%;
+  left: 10%;
+}
+
+.main__page__community__content__1 {
+  width: 11%;
+  margin-top: 2%;
+  height: 8vw;
+  position: absolute;
+  top: 12%;
+}
+
+.main__page__community__content__1 p {
+  font-size: 12px;
+  color: #454340;
+  line-height: 20px;
+  font-family: Helvetica, Arial;
+  padding-top: 8%;
+  padding-left: 10%;
+}
+
+.latest__journals {
+  width: 50%;
+  height: 15vw;
+  margin-left: 20%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest__journals__head {
+  width: 50%;
+  height: 4vw;
+  margin-left: 3%;
+  font-family: Helvetica, Arial;
+}
+
+.latest__journals__content {
+  width: 90%;
+  margin-top: 1%;
+  height: 6vw;
+  display: flex;
+}
+.latest__journals__img {
+  width: 6%;
+  height: 2vw;
+}
+
+.latest__journals__img img {
+  margin-left: 15%;
+}
+
+.latest__journals__right {
+  width: 70%;
+  height: 1.9vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5%;
+}
+.latest__journals__right__div__1 {
+  width: 100%;
+  height: 0.9;
+}
+
+.latest__journals__right__div__1 p {
+  font-size: 14px;
+  color: #574a40;
+}
+
+.latest__journals__right__div__2 {
+  width: 100%;
+  height: 0.9;
+}
+
+.latest__journals__right__div__2 p {
+  font-size: 10px;
+  color: #574a40;
+}
+
+.latest__journals__right__div__2 a {
+  font-size: 10px;
+}
+
+.fast__secret__comm {
+  width: 50%;
+  height: 8vw;
+  margin-top: 1%;
+  margin-left: 20%;
+}
+
+.fast__secret__comm__head {
+  width: 50%;
+  height: 1.5vw;
+  font-family: Helvetica, Arial;
+}
+
+.fast__secret__comm__head h2 {
+  color: #323646;
+  margin-left: 5%;
+}
+
+.fast__secret__comm__content {
+  width: 90%;
+  height: 6.5vw;
+  display: flex;
+  margin-top: 1%;
+}
+
+.fast__secret__comm__inner__content {
+  width: 49%;
+  margin-left: 0.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fast__secret__comm__inner__content__inner {
+  width: 100%;
+  margin-top: 0.5%;
+  height: 3vw;
+  display: flex;
+}
+
+.inner__gif__img__fast {
+  width: 8%;
+  height: 2vw;
+}
+
+.inner__gif__dot__fast {
+  width: 5%;
+  height: 1vw;
+}
+
+.inner__gif__text__fast {
+  width: 80%;
+  height: 2vw;
+}
+
+.inner__gif__text__fast p {
+  font-size: 11px;
+  font-family: Helvetica, Arial;
+  color: #323646;
+}
+
+/* Community Main Page CSS End*/
+
+/* Community Card CSS Start*/
+
+.community__main {
+  width: 60%;
+  border: 3px solid #67b44b;
+  margin-left: 20%;
+  height: 25vw;
+  margin-top: 1%;
+}
+
+.community__card {
+  display: flex;
+  width: 90%;
+  height: 28vw;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.community__card__left {
+  width: 30%;
+  border: 1px solid white;
+  margin-top: 1%;
+  margin-left: 1%;
+  position: relative;
+}
+
+.community__card__left__1 {
+  width: 30%;
+  border: 1px solid white;
+  margin-left: 1%;
+  margin-top: 3%;
+  background-color: #fcfdf4;
+  height: 15vw;
+}
+
+.community__card__left__1 p {
+  margin-left: 3%;
+  margin-top: 10%;
+  line-height: 10px;
+  font-style: Arial;
+  font-size: 15px;
+  color: #807875;
+}
+
+.community__card__left__2 {
+  width: 40%;
+  border: 1px solid white;
+  margin-left: 1%;
+  margin-top: 3%;
+  height: 19vw;
+  background-color: #f2f2f2;
+}
+
+.community__card__left__2 p {
+  margin-left: 25%;
+  margin-top: 3%;
+  color: #807875;
+  font-size: 15px;
+}
+
+.community__card__left__text h2 {
+  margin-left: 10%;
+}
+.community__card__left__text p {
+  margin-left: 20%;
+  color: lightslategray;
+  font-size: 15px;
+}
+
+.community__card__left__img {
+  width: 100%;
+  border: 1px solid white;
+  margin-top: 2%;
+}
+
+.community__card__left__button {
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.btn-1 {
+  width: 80%;
+  height: 45px;
+  margin-left: 1%;
+  margin-top: 2%;
+  background-color: #3a8dc4;
+  border: none;
+  border-radius: 1px;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+}
+
+.btn-2 {
+  width: 20%;
+  height: 45px;
+  margin-left: 3%;
+  margin-top: 2%;
+  background-color: #3a8dc4;
+  border: none;
+  border-radius: 1px;
+}
+
+.btn-2:hover {
+  cursor: pointer;
+}
+
+.follow__img {
+  position: absolute;
+  top: 54.5%;
+  left: 3%;
+}
+
+.follow__img {
+  cursor: pointer;
+}
+
+.follow__p {
+  position: absolute;
+  top: 58.3%;
+  left: 30%;
+  font-size: 18px;
+  color: white;
+}
+.follow__p:hover {
+  cursor: pointer;
+}
+
+.message__img {
+  position: absolute;
+  top: 57.3%;
+  left: 84%;
+  background: none;
+}
+
+.message__img {
+  cursor: pointer;
+}
+
+.community__card__right {
+  width: 35%;
+  border: 1px solid white;
+  margin-top: 3%;
+  margin-left: 1%;
+  height: 3vw;
+}
+
+.community__card__right p {
+  margin-left: 5%;
+  font-size: 12px;
+  color: #807875;
+}
+
+.bottom__community {
+  width: 50%;
+  height: 5vw;
+}
+
+.flex__commnity {
+  width: 90%;
+  display: flex;
+  margin-left: 5%;
+}
+
+.bottom__community p {
+  width: 60%;
+  font-size: 13px;
+  color: #807875;
+  margin-left: 15%;
+}
+
+/* Community Card CSS End*/
